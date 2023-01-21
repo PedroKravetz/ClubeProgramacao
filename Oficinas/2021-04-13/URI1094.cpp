@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <string.h>
-
+#include <bits/stdc++.h>
+using namespace std;
 int main()
 {
     int experimentos, total = 0, ratos = 0, coelhos = 0, sapos = 0, aux;
@@ -25,4 +24,5 @@ int main()
     printf("Percentual de coelhos: %.2f %\n", 100.0 * coelhos / total);
     printf("Percentual de ratos: %.2f %\n", 100.0 * ratos / total);
     printf("Percentual de sapos: %.2f %\n", 100.0 * sapos / total);
+    return 0;
 }

@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 int main()
 {
@@ -32,4 +33,5 @@ int main()
             printf("failure on day %d\n", tempo);
         scanf("%d %f %f %f", &altura, &percorre, &escorrega, &fadiga);
     }
+    return 0;
 }

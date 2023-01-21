@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 
 int primo(int x)
 {
@@ -27,4 +28,5 @@ int main()
         else
             printf("%d nao eh primo\n", num);
     }
+    return 0;
 }

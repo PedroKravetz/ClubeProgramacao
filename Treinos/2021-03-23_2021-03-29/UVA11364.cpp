@@ -1,4 +1,5 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+using namespace std;
 
 int main()
 {
@@ -21,4 +22,5 @@ int main()
         }
         printf("%d\n", (maior - menor) * 2);
     }
+    return 0;
 }
