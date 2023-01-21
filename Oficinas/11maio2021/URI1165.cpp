@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+int primo(int x)
+{
+    int temp = 2;
+    if (x == 0 || x == 1)
+        return 0;
+    while (temp < x)
+    {
+        if (x % temp == 0)
+            return 0;
+        temp++;
+    }
+    return 1;
+}
+
+int main()
+{
+    int teste, num;
+    scanf("%d", &teste);
+    while (teste > 0)
+    {
+        teste--;
+        scanf("%d", &num);
+        if (primo(num))
+            printf("%d eh primo\n", num);
+        else
+            printf("%d nao eh primo\n", num);
+    }
+}
