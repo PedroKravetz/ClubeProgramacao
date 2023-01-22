@@ -6,7 +6,8 @@ int primo(int x)
     int temp = 2;
     if (x == 0 || x == 1)
         return 0;
-    while (temp < x)
+    int raiz = sqrt(x) + 1;
+    while (temp < raiz)
     {
         if (x % temp == 0)
             return 0;

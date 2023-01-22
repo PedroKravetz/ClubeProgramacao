@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main()
 {
     int experimentos, total = 0, ratos = 0, coelhos = 0, sapos = 0, aux;
