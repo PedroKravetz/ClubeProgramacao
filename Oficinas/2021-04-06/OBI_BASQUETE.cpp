@@ -5,7 +5,7 @@ int main()
 {
     int distancia;
     scanf("%d", &distancia);
-    if (distancia < 81)
+    if (distancia < 801)
         printf("%d\n", 1);
     else if (distancia < 1401)
         printf("%d\n", 2);
